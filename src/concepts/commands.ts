@@ -85,3 +85,11 @@
  * Insert string values in single quotes, double quotes can lead to syntax error.
  * Insert number values without quotes.
  */
+
+/*
+ * 8. Insert multiple values into table
+ * INSERT INTO table_name (column1, column2, column3) VALUES (value1, value2, value3), (value1, value2, value3), (value1, value2, value3);
+ *
+ * Example:
+ * INSERT INTO users (id, name, email) VALUES (1, 'John Doe', [EMAIL_ADDRESS]'), (2, 'Jane Doe', [EMAIL_ADDRESS]');
+ */
